@@ -10,4 +10,4 @@ def total_trips(data:pd.DataFrame)->int:
 
 # run main function
 if __name__ == '__main__':
-    print('Total number of trips:', total_trips(data))
+    print(f'Total number (count) of trips:{total_trips(data)}')
