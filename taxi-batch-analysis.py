@@ -1,4 +1,4 @@
-# run with puthon taxi-batch-analysis.py
+# run with python taxi-batch-analysis.py
 import pandas as pd
 
 # Load the data
