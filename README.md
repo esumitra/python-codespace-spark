@@ -12,8 +12,13 @@ See [spark-wordcount.py](spark-wordcount.py)
 
 
 ## Using Codepspaces
-(image-goes-here)
-1. Click the "Open in Github Codespaces" button above
+
+[<img src="./images/codespaces-pandas.png" width="400"/>](./images/codespaces-pandas.png)
+
+1. Create or Resume a Codespace
+
+Click the "Open in Github Codespaces" button above to start the developer IDE in the cloud.
+
 2. Start a terminal
 3. Run pandas analysis
 ```
@@ -24,8 +29,12 @@ python taxi-batch-analysis.py
 python spark-wordcount.py
 ```
 
+**Note: Don't forget to turn off the codespace, else you will get charged for the codespace even when you are not using it.**
+
 ## Using Local Devcontainer
+
 [<img src="./images/devcontainer-local.png" width="400"/>](./images/devcontainer-local.png)
+
 1. Open Visual Studio Code (VSC) editor
 ```
 code .
@@ -44,7 +53,9 @@ python spark-wordcount.py
 ```
 
 ## Pyspark Interactive console
-(image-goes-here)
+
+[<img src="./images/codespaces-pyspark.png" width="400"/>](./images/codespaces-pyspark.png)
+
 1. Open pyspark console
 ```
 pyspark
