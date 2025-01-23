@@ -79,6 +79,23 @@ quit()
 
 Open spark console at http://localhost:4040/jobs/
 
+## Using AWS cli
+
+1. Configure AWS secrets for first time use
+```
+aws configure
+```
+At a minimum the followng keys need to be configures
+```
+aws_access_key_id = xxxx1
+aws_secret_access_key = xxxx2
+region=us-east-1
+```
+
+2. Test configuration by listing an S3 file
+```
+aws s3 ls s3://<path-to-file-on-s3> -
+```
 ### Copyright
 Copyright 2025, Edward Sumitra
 
