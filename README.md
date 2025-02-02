@@ -97,6 +97,6 @@ region=us-east-1
 aws s3 ls s3://<path-to-file-on-s3> -
 ```
 ### Copyright
-Copyright 2024-2025, Edward Sumitra
+Copyright 2025, Edward Sumitra
 
 Licensed under the MIT License.
