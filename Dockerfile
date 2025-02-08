@@ -15,6 +15,10 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "/tmp/aws
     unzip awscliv2.zip && \
     sudo ./aws/install
 
+
 ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64/
+# Form ARM use the location below
+#ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-arm64/
+
 RUN export JAVA_HOME
 EXPOSE 4040
