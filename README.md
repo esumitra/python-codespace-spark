@@ -29,6 +29,11 @@ python taxi-batch-analysis.py
 python spark-wordcount.py
 ```
 
+5. Open an interactive notebook in the IDE
+```
+code taxi-notebook.ipynb
+```
+
 **Note: Don't forget to turn off the codespace, else you will get charged for the codespace even when you are not using it.**
 
 ## Using Local Devcontainer
